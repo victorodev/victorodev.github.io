@@ -6,7 +6,7 @@ body {
   /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, */
     /* Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
     font-family: 'Poppins', sans-serif;
-    color: white; background-image: url(../images/fundo2.jpg) ; background-color: black; 
+    color: white; ; background-color: #001119; 
 }
 
 a {
@@ -53,6 +53,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+    padding: 10px;
   }
   
   .title {
@@ -121,14 +122,3 @@ a {
     line-height: 1.5;
   }
   
-  .logo {
-    height: 1em;
-    margin-left: 0.5rem;
-  }
-  
-  @media (max-width: 600px) {
-    .grid {
-      width: 100%;
-      flex-direction: column;
-    }
-  }
